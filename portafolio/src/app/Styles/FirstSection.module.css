@@ -1,0 +1,49 @@
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background-color: #1c1c1c; /* Dark background to match your design */
+    color: #ffffff;
+  }
+  
+  .intro {
+    max-width: 500px;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    color: #ff6600;
+    margin: 0.5rem 0;
+  }
+  
+  .intro h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1.5rem 0;
+  }
+  
+
+  
+  .profileImage img {
+    border-radius: 50%;
+    border: 5px solid #ff6600;
+  }
+  
+  .socialLinks {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
