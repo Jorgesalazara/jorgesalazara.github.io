@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust background color */
+    padding: 1rem 2rem;
+    color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .navLinks li {
+    display: inline;
+  }
+  
+  .navLinks a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .downloadButton {
+    background-color: #ff6600; /* Adjust button color */
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .downloadButton:hover {
+    background-color: #e65c00; /* Adjust hover color */
+  }
+  
