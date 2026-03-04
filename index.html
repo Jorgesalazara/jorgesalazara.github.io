@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Salazar | Ingeniero de Sistemas</title>
+    <meta name="description" content="Portafolio profesional de Jorge Ernesto Salazar Arrieta - Ingeniero de Sistemas, AI Enthusiast, Developer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">&lt;JS /&gt;</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li><a href="#experience" class="nav-link">Experiencia</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-greeting reveal">
+                <span class="greeting-line"></span>
+                <span>Hola, mi nombre es</span>
+            </div>
+            <h1 class="hero-name reveal">Jorge Ernesto<br><span class="gradient-text">Salazar Arrieta</span></h1>
+            <p class="hero-title reveal">
+                <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+            </p>
+            <p class="hero-description reveal">
+                Ingeniero de Sistemas apasionado por la <strong>Inteligencia Artificial</strong> y el desarrollo de software. 
+                Transformando ideas en soluciones tecnológicas innovadoras.
+            </p>
+            <div class="hero-cta reveal">
+                <a href="#projects" class="btn btn-primary">
+                    <span>Ver proyectos</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <span>Contáctame</span>
+                </a>
+            </div>
+            <div class="hero-social reveal">
+                <a href="https://github.com/jorgesalazara" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jorge-ernesto-salazar-arrieta-122099240/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:jorgeernestosalazararrieta@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="section-number">01.</span> Sobre mí
+            </h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        ¡Hola! Soy <strong>Jorge Ernesto Salazar Arrieta</strong>, Ingeniero de Sistemas graduado de la 
+                        <strong>Universidad del Norte</strong> en Barranquilla, Colombia. Me apasiona construir experiencias 
+                        digitales que vivan en la intersección entre el diseño y la tecnología.
+                    </p>
+                    <p>
+                        Soy un <strong>AI Enthusiast</strong> con un gran interés en la inteligencia artificial y cómo puede 
+                        transformar industrias enteras. Me considero una persona sumamente responsable, con habilidades 
+                        bilingües (Español nativo, Inglés B2-C1) y una mentalidad orientada al aprendizaje continuo.
+                    </p>
+                    <p>
+                        A lo largo de mi carrera he tenido la oportunidad de trabajar en empresas como 
+                        <strong>Sophos Solutions</strong>, <strong>Siscad</strong> e <strong>IngeniarteSoft</strong>, 
+                        donde he potenciado mis habilidades en desarrollo de software y resolución de problemas complejos.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <strong>Universidad del Norte</strong>
+                                <span>Ing. de Sistemas — 2024</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <strong>Bilingüe</strong>
+                                <span>Español (Nativo) • Inglés (B2-C1)</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <strong>Certificaciones</strong>
+                                <span>Python • TypeScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-astronaut"></i>
+                            <span>JS</span>
+                        </div>
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="section-number">02.</span> Experiencia
+            </h2>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Developer</h3>
+                                <p class="company">
+                                    <i class="fas fa-building"></i> IngeniarteSoft
+                                </p>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i> Mar 2025 — Jun 2025
+                            </span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Desarrollo de soluciones de software a medida para clientes</li>
+                            <li>Implementación de funcionalidades frontend y backend</li>
+                            <li>Colaboración en equipos ágiles de desarrollo</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Desarrollador</h3>
+                                <p class="company">
+                                    <i class="fas fa-building"></i> Siscad
+                                </p>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i> Ene 2024 — Dic 2024
+                            </span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Desarrollo y mantenimiento de aplicaciones empresariales</li>
+                            <li>Gestión de bases de datos y optimización de consultas SQL</li>
+                            <li>Soporte técnico y resolución de incidencias</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Engineer Trainee II</h3>
+                                <p class="company">
+                                    <i class="fas fa-building"></i> Sophos Solutions
+                                </p>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i> Abr 2023 — May 2023
+                            </span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Pasantía profesional en empresa líder de soluciones tecnológicas</li>
+                            <li>Participación en proyectos de ingeniería de software</li>
+                            <li>Aprendizaje de metodologías y buenas prácticas empresariales</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Software Engineering</span>
+                            <span class="tag">Enterprise Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="section-number">03.</span> Habilidades
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Lenguajes</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>TypeScript</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frameworks & Librerías</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & Data</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Machine Learning</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Data Analysis</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Herramientas</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git & GitHub</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>VS Code</span>
+                            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="section-number">04.</span> Proyectos
+            </h2>
+            <p class="section-subtitle reveal">Mis repositorios más recientes en GitHub</p>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects loaded dynamically from GitHub API -->
+                <div class="projects-loader">
+                    <div class="loader-spinner"></div>
+                    <p>Cargando proyectos desde GitHub...</p>
+                </div>
+            </div>
+            <div class="projects-cta reveal">
+                <a href="https://github.com/jorgesalazara?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline">
+                    <i class="fab fa-github"></i>
+                    <span>Ver todos en GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="section-number">05.</span> Contacto
+            </h2>
+            <div class="contact-wrapper">
+                <div class="contact-text reveal">
+                    <h3>¿Tienes un proyecto en mente?</h3>
+                    <p>
+                        Estoy siempre abierto a nuevas oportunidades, colaboraciones y conversaciones interesantes. 
+                        Si tienes una pregunta o simplemente quieres saludar, ¡no dudes en contactarme!
+                    </p>
+                </div>
+                <div class="contact-cards reveal">
+                    <a href="mailto:jorgeernestosalazararrieta@gmail.com" class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-card-info">
+                            <span class="contact-card-label">Email</span>
+                            <span class="contact-card-value">jorgeernestosalazararrieta@gmail.com</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-card-arrow"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jorge-ernesto-salazar-arrieta-122099240/" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="contact-card-info">
+                            <span class="contact-card-label">LinkedIn</span>
+                            <span class="contact-card-value">Jorge Ernesto Salazar Arrieta</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-card-arrow"></i>
+                    </a>
+                    <a href="tel:+573016194398" class="contact-card">
+                        <div class="contact-card-icon phone">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-card-info">
+                            <span class="contact-card-label">Teléfono</span>
+                            <span class="contact-card-value">+57 301 619 4398</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-card-arrow"></i>
+                    </a>
+                    <a href="https://github.com/jorgesalazara" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon github">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-card-info">
+                            <span class="contact-card-label">GitHub</span>
+                            <span class="contact-card-value">@jorgesalazara</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-card-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">&lt;JS /&gt;</a>
+                <p>Diseñado & desarrollado por <strong>Jorge Salazar</strong></p>
+                <p class="footer-year">&copy; 2026 — Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
